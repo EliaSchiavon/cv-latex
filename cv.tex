@@ -1,0 +1,112 @@
+%!TEX TS-program = xelatex
+\documentclass[a4paper]{friggeri-cv}
+%\addbibresource{bibliography.bib}
+
+\usepackage{fontawesome}
+
+\patchcmd{\aside}
+{\begin{textblock}{3.6}(1.5, 4.33)}
+	{\begin{textblock}{5.3}(0, 4.33)}
+		{}{}
+
+\begin{document}
+\header{Elia}{ Schiavon}
+       {Data Science graduate}
+
+
+% In the aside, each new line forces a line break
+
+\begin{aside}
+	{\includegraphics[width=3cm]{../../foto/foto-bianco-linea1.png}}
+  \section{Contacts}
+    Vicolo Sorga, 7B
+    28021 Borgomanero (NO)
+    Italy
+    ~
+    {\color{gray}{\FA \faEnvelope}} \href{mailto:e.schiavon1@campus.unimib.it}{e.schiavon1@campus.unimib.it}
+    {\color{gray}{\FA \faEnvelope}} \href{mailto:eliaae95@gmail.com}{eliaae95@gmail.com}
+    {\color{cyan}{\FA \faLinkedinSquare}} \href{https://www.linkedin.com/in/elia-schiavon/}{linkedin.com/in/elia-schiavon/}
+    {\color{blue}{\FA \faTwitter}} \href{https://twitter.com/elia_schiavon?s=09}{@elia\_schiavon}
+    {\color{black}{\FA \faPhone}} \href{}{+39 334 27 83 997}
+  \section{Languages}
+    Italian (mother tongue)
+    English (scholastic and professional knowledge, B2 certification)
+  \section{Skills}
+    Machine learning
+    Statistical modelling
+    Data visualization
+    Linux user
+    Web Marketing and communication
+    ECDL
+  \section{Coding}
+	Python
+	R
+	C++
+	SQL
+  \section{Tools}
+	KNIME  Analytics Platform
+	Tableau
+	LaTex
+\end{aside}
+
+\section{\textcolor{green}{Experience}}
+
+\begin{entrylist}
+	\entry
+	{06/2019-\\10/2019}
+	{Internship at L.I.T.A.}
+	{L.I.T.A., CNR (Segrate)}
+	{Developing of agorithms for automatic segmentation of medical images.}
+\end{entrylist}
+
+\section{\textcolor{red}{Education}}
+
+\begin{entrylist}
+  \entry
+    {2017-2019}
+    {M. Sc. in Data Science}
+    {University of Milano-Bicocca, Milano}
+    {Thesis title: ``Training of an AI-based algorithm for lung nodules segmentation: from medical image processing to deep learning.'' conducted at L.I.T.A (Interdisciplinar Laboratory for Adavanced Technologies), CNR structure in Milan.\\
+    Final grade: 110/110 cum laude.}
+  \entry
+    {2014–2017}
+    {B. Sc. in Physics}
+    {University of Milano-Bicocca, Milano}
+    {Thesis title: ``Analysis through equivalent circuit of electrically detected electronic spin resonance spectra" with laboratory experiment conducted at Materials and Spectroscopies for Nanoelectronics and Spintronics laboratory, University of Milano-Bicocca.\\
+    Final grade: 101/110. }
+  \entry
+    {2009-2014}
+    {Secondary school diploma}
+    {Social-psyco pedagogical high school, Gozzano (NO)}
+    {Final grade: 100/100 cum laude}
+  \entry
+    {06/2013}
+    {Internship}
+    {Insubria University, Como}
+    {Internship in discrete mathematics and applications held by A. Setti, Science and High Technology department, Insubria University (Como).}
+\end{entrylist}
+
+\section{Other \textcolor{blue}{interests}}
+Musician at "La Cavagliese" marching band (\href{http://www.lacavagliese.it/}{lacavagliese.it}),\\
+Amateur pianist
+\section{\textcolor{orange}{Volunteering} experiences}
+\begin{entrylist}
+	\entry
+	{now}
+	{Artistic guide}
+	{Parrocchia di Borgomanero}
+	{Volunteer for valorising the cultural heritage of the region.}
+	\entry
+	{2013}
+	{FAI}
+	{Fondo Ambiente Italiano}
+	{Volunteer guide}
+	\entry
+	{2011-2013}
+	{Volunteer assistant}
+	{Alzheimer Borgomanero ONLUS}
+	{Recreational activities for people with Alzheimer's disease.}
+\end{entrylist}
+
+
+\end{document}
